@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device name="Teensy MIDI" author="Tom" description="Teensy MIDI controller" version="800" type="MIDI" singledeck="no" motor="no" decks="2" vid="0x16C0" pid="0x0485">
+    <slider cc="24" name="CROSSFADER"/>
+    <slider cc="25" name="VOL" deck="1"/>
+    <slider cc="26" name="VOL" deck="2"/>
+    <slider cc="27" name="FILTER" deck="1"/>
+    <slider cc="28" name="FILTER" deck="2"/>
+    <button note="29" name="EFFECT1ON" deck="1"/>
+    <button note="30" name="EFFECT1OFF" deck="1"/>
+    <button note="31" name="EFFECT1ON" deck="2"/>
+    <button note="32" name="EFFECT1OFF" deck="2"/>
+
+    <button note="33" name="PLAY" deck="1"/>
+    <button note="34" name="SYNC" deck="1"/>
+    <button note="35" name="RESET_PITCH" deck="1"/>
+    <button note="36" name="PLAY" deck="2"/>
+    <button note="37" name="SYNC" deck="2"/>
+    <button note="38" name="RESET_PITCH" deck="2"/>
+    <led note="1" name="LED_PITCH_NOT_ZERO" channel="0" deck="1" />
+    <led note="2" name="LED_PITCH_IS_ZERO" channel="0" deck="1" />
+    <led note="3" name="LED_BPM_MATCHES" channel="0" deck="1" />
+    <led note="4" name="LED_PITCH_IS_ZERO123" channel="0" deck="1" />
+
+    <led note="11" name="LED_PITCH_NOT_ZERO" channel="0" deck="2" />
+    <led note="12" name="LED_PITCH_IS_ZERO" channel="0" deck="2" />
+    <led note="13" name="LED_BPM_MATCHES" channel="0" deck="2" />
+    <led note="14" name="LED_PITCH_IS_ZERO123" channel="0" deck="2" />
+</device>

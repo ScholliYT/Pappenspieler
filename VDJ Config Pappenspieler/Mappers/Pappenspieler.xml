@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="Teensy MIDI" author="Tom" version="802" date="2018-01-25">
+	<map value="CROSSFADER" action="crossfader" />
+	<map value="VOL" action="level" />
+	<map value="FILTER" action="filter" />
+	<map value="EFFECT1ON" action="effect_active active on" />
+	<map value="EFFECT1OFF" action="effect_active active off" />
+	<map value="PLAY" action="play_pause" />
+	<map value="SYNC" action="sync" />
+	<map value="RESET_PITCH" action="pitch_reset" />
+	<map value="LED_PITCH_IS_ZERO" action="get_pitch_zero ? on : off" />
+	<map value="LED_PITCH_NOT_ZERO" action="get_pitch_zero ? off : on" />
+	<map value="LED_BPM_MATCHES" action="get_bpm_match &amp; param_equal 0.5 ? off : blink" />
+</mapper>
